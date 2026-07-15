@@ -8,4 +8,7 @@ A containerized bioinformatics pipeline for aligning paired-end DNA sequence rea
 3. Convert the text-based SAM file to a compressed binary BAM file using samtools view.
 4. The BAM file is sorted by genomic coordinates using samtools sort, producing a sorted BAM file.
 
+##Flowchart##
+
+
 
