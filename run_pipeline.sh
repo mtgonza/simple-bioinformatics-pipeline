@@ -4,10 +4,10 @@ set -e
 
 SAMPLE=${1:-1M_SRR9336468}
 
-# Use the symlinks from project3_parallel/data/samples/
+# Use the symlinks from parallel_pipeline/data/samples/
 REF="/project/data/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa"
-R1="/project/project3_parallel/data/samples/${SAMPLE}_R1.fastq"
-R2="/project/project3_parallel/data/samples/${SAMPLE}_R2.fastq"
+R1="/project/parallel_pipeline/data/samples/${SAMPLE}_R1.fastq"
+R2="/project/parallel_pipeline/data/samples/${SAMPLE}_R2.fastq"
 
 echo "Starting alignment pipeline for sample: ${SAMPLE}"
 echo "Reference: $REF"
